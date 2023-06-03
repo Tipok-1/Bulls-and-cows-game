@@ -1,0 +1,19 @@
+.OneRoom{
+    height:100px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: green; 
+    border:1px solid black;
+    margin:20px;
+    color: rgb(216, 212, 212);
+    padding: 5px;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.OneRoom:hover{
+    cursor:pointer;
+}

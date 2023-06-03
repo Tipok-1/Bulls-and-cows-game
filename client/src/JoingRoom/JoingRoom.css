@@ -1,0 +1,19 @@
+.JoingRoom{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+.joinRoomButton{
+    padding: 7px;
+    border-radius: 5px;
+}
+.joinRoomButton:hover{
+    cursor: pointer;
+}

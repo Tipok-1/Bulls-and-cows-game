@@ -1,0 +1,40 @@
+.CreateRoomForm{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.RoomName,.ButtonCreateRoom{
+    width: 60%;
+    height: 20px;
+    padding: 5px;
+    
+}
+.InputWrap{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 20px;
+}
+.Number{
+    height: 20px;
+    padding: 5px;
+    width: 30%;
+}
+.ButtonCreateRoom{
+    padding: 0px;
+    height: 30px;
+    border-radius: 3px;
+}
+.ButtonCreateRoom:hover{
+    cursor:pointer;
+}
+
+.Alert{
+    font-size: 20px;
+    color:rgb(124, 25, 25);
+}

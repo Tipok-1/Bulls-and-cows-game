@@ -1,0 +1,15 @@
+.allRooms{
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.allRooms::-webkit-scrollbar{
+    background-color:  rgb(207, 207, 207);
+    border-radius: 3px;
+}
+.allRooms::-webkit-scrollbar-thumb{
+    background-color: rgb(88, 88, 88);
+    outline: 1px solid black;
+    border-radius: 3px;
+}

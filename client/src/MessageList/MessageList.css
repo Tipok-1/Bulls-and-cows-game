@@ -1,0 +1,17 @@
+.MessageList{
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 7%;
+}
+.MessageList::-webkit-scrollbar {
+    width: 10px; 
+    background-color: rgb(87, 86, 86);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.MessageList::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 134, 134);;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 10px #c2c1c1;
+}
